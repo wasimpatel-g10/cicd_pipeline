@@ -23,4 +23,9 @@ public class UserController {
 	public String myTwoData() {
 		return "haa bhai !!!sdgdgdfgdf";
 	}
+	
+	@GetMapping("/three")
+	public String myThreeData() {
+		return "haa bhai !!!sdgdgdfgdf";
+	}
 }
