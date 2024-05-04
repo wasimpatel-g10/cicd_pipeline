@@ -12,10 +12,10 @@ public class UserController {
 	}
 	@GetMapping("/do")
 	public String myData() {
-		return "hello  bhai ";
+		return "haa bhai ";
 	}
 	@GetMapping("/check")
 	public String myCheckData() {
-		return "hello  bhai  BHAI !!";
+		return "bol bhai  !!";
 	}
 }
