@@ -29,8 +29,7 @@
 		</dependency>
 	</dependencies>
 
-	
-	<build>
+<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -44,7 +43,7 @@
 		</plugins>
 		<finalName>cicd_pipeline</finalName>
 	</build>
-	
+
 
 
 

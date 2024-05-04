@@ -14,8 +14,5 @@ public class UserController {
 	public String myData() {
 		return "haa bhai ";
 	}
-	@GetMapping("/check")
-	public String myCheckData() {
-		return "bol bhai  123v !!";
-	}
+
 }
