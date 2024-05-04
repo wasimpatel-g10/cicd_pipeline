@@ -41,6 +41,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>cicd_pipeline</finalName>
 	</build>
 
 </project>

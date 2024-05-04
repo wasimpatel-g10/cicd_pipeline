@@ -10,5 +10,8 @@ public class UserController {
 	public String myMessage() {
 		return "hello world";
 	}
-	
+	@GetMapping("/do")
+	public String myData() {
+		return "hello  bhai ";
+	}
 }
