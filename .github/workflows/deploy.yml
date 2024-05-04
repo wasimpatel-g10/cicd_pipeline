@@ -27,6 +27,7 @@
            port: 22
            source: "target/cicd_pipeline.jar"
            target: "/home/ubuntu/testcicd/"
+           debug: true
 
        - name: SSH into EC2 and Restart Application
          uses: appleboy/ssh-action@master
@@ -35,6 +36,7 @@
            username: ${{ secrets.EC2_USERNAME }}
            key: ${{ secrets.SSH_PRIVATE_KEY }}
            port: 22
+           debug: true
            script: |
              # Stop the application running on port 8080
              sudo lsof -t -i:8080 | xargs -r kill -9
