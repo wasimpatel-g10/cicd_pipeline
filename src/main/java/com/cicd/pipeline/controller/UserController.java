@@ -14,4 +14,8 @@ public class UserController {
 	public String myData() {
 		return "hello  bhai ";
 	}
+	@GetMapping("/check")
+	public String myCheckData() {
+		return "hello  bhai  BHAI !!";
+	}
 }
