@@ -16,6 +16,6 @@ public class UserController {
 	}
 	@GetMapping("/check")
 	public String myCheckData() {
-		return "bol bhai  !!";
+		return "bol bhai  123v !!";
 	}
 }
