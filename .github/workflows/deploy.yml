@@ -26,7 +26,7 @@
            key: ${{ secrets.SSH_PRIVATE_KEY }}
            port: 22
            source: "target/cicd_pipeline.jar"
-           target: "/home/ubuntu/"
+           target: "/home/ubuntu/testcicd/"
 
        - name: SSH into EC2 and Restart Application
          uses: appleboy/ssh-action@master
@@ -40,4 +40,4 @@
              sudo lsof -t -i:8080 | xargs -r kill -9
              
              # Run the JAR file in the background
-             nohup java -jar /home/ubuntu/cicd_pipeline.jar > /dev/null 2>&1 &
+             nohup java -jar /home/ubuntu/testcicd/cicd_pipeline.jar > /dev/null 2>&1 &
