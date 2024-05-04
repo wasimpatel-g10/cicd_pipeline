@@ -14,5 +14,9 @@ public class UserController {
 	public String myData() {
 		return "haa bhai !!!";
 	}
-
+	@GetMapping("/one")
+	public String myOneData() {
+		return "haa bhai !!!sdgdgdfgdf";
+	}
+	
 }
