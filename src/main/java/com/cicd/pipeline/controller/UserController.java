@@ -19,4 +19,8 @@ public class UserController {
 		return "haa bhai !!!sdgdgdfgdf";
 	}
 	
+	@GetMapping("/two")
+	public String myTwoData() {
+		return "haa bhai !!!sdgdgdfgdf";
+	}
 }

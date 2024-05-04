@@ -42,4 +42,4 @@
              sudo lsof -t -i:8080 | xargs -r kill -9
              
              # Run the JAR file in the background
-             nohup java -jar /home/ubuntu/testcicd/cicd_pipeline.jar > /dev/null 2>&1 &
+             nohup java -jar /home/ubuntu/testcicd/target/cicd_pipeline.jar > /dev/null 2>&1 &
